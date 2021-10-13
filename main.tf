@@ -128,10 +128,7 @@ resource "aws_instance" "hashicat" {
 
   tags = {
     Name = "${var.prefix}-hashicat-instance"
-  }
-  tags = {
-    name = "Department"
-    values = "devops"
+    Name = "Department"
   }
 }
 
